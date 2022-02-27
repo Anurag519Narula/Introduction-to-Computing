@@ -40,7 +40,7 @@ def pascal_triangle(n, originalength=n):
         return
     pascal_triangle(n - 1, originalength)
     # printing the spaces
-    print('  ' * (originalength - n), end=' ')
+    print(' ' * (originalength - n), end=' ')
 
     # It always starts from 1
     start = 1
